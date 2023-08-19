@@ -1,0 +1,413 @@
+environ len => 23
+
+     [1;36m--path[0]--[0m    
+
+[0] =>  LESSOPEN
+[1] =>  | /usr/bin/lesspipe %s
+
+     [1;36m--path[1]--[0m    
+
+[0] =>  USER
+[1] =>  mohamed
+
+     [1;36m--path[2]--[0m    
+
+[0] =>  SHLVL
+[1] =>  2
+
+     [1;36m--path[3]--[0m    
+
+[0] =>  LD_LIBRARY_PATH
+[1] =>  /usr/lib/debug
+
+     [1;36m--path[4]--[0m    
+
+[0] =>  HOME
+[1] =>  /home/mohamed
+
+     [1;36m--path[5]--[0m    
+
+[0] =>  OLDPWD
+[1] =>  /mnt/c/Users/active/Desktop/Coding/dirC/0x16. C - Simple Shell
+
+     [1;36m--path[6]--[0m    
+
+[0] =>  WSL_DISTRO_NAME
+[1] =>  Ubuntu-20.04
+
+     [1;36m--path[7]--[0m    
+
+[0] =>  LOGNAME
+[1] =>  mohamed
+
+     [1;36m--path[8]--[0m    
+
+[0] =>  NAME
+[1] =>  DESKTOP-S296B4S
+
+     [1;36m--path[9]--[0m    
+
+[0] =>  _
+[1] =>  /usr/bin/valgrind
+
+     [1;36m--path[10]--[0m    
+
+[0] =>  TERM
+[1] =>  xterm-256color
+
+     [1;36m--path[11]--[0m    
+
+[0] =>  PATH
+[1] =>  /usr/local/sbin
+[2] =>  /usr/local/bin
+[3] =>  /usr/sbin
+[4] =>  /usr/bin
+[5] =>  /sbin
+[6] =>  /bin
+[7] =>  /usr/games
+[8] =>  /usr/local/games
+[9] =>  /mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc
+[10] =>  /mnt/c/Python311/Scripts/
+[11] =>  /mnt/c/Python311/
+[12] =>  /mnt/c/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin
+[13] =>  /mnt/c/Program Files/Common Files/Oracle/Java/javapath
+[14] =>  /mnt/c/Windows/system32
+[15] =>  /mnt/c/Windows
+[16] =>  /mnt/c/Windows/System32/Wbem
+[17] =>  /mnt/c/Windows/System32/WindowsPowerShell/v1.0/
+[18] =>  /mnt/c/Windows/System32/OpenSSH/
+[19] =>  /mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/
+[20] =>  /mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/
+[21] =>  /mnt/c/Program Files/dotnet/
+[22] =>  /mnt/c/Users/Active/AppData/Local/Programs/Microsoft VS Code/bin
+[23] =>  /mnt/c/mingw64/bin
+[24] =>  /mnt/c/msys64/mingw64/bin
+[25] =>  /mnt/c/msys64/clang64/bin
+[26] =>  /mnt/c/Program Files/nodejs/
+[27] =>  /mnt/c/ProgramData/chocolatey/bin
+[28] =>  /mnt/c/Users/Active/AppData/Roaming/npm
+[29] =>  /mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/
+[30] =>  /mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/
+[31] =>  /mnt/c/Program Files/Azure Data Studio/bin
+[32] =>  /mnt/c/Program Files/Git/cmd
+[33] =>  /mnt/c/Users/Active/AppData/Local/Programs/Python/Python310/Scripts/
+[34] =>  /mnt/c/Users/Active/AppData/Local/Programs/Python/Python310/
+[35] =>  /mnt/c/Users/Active/AppData/Local/Microsoft/WindowsApps
+[36] =>  /mnt/c/Users/Active/.dotnet/tools
+[37] =>  /mnt/c/Program Files/heroku/bin
+[38] =>  /mnt/c/Users/Active/AppData/Local/GitHubDesktop/bin
+[39] =>  /snap/bin
+
+     [1;36m--path[12]--[0m    
+
+[0] =>  GLIBCPP_FORCE_NEW
+[1] =>  1
+
+     [1;36m--path[13]--[0m    
+
+[0] =>  LANG
+[1] =>  C.UTF-8
+
+     [1;36m--path[14]--[0m    
+
+[0] =>  LS_COLORS
+[1] =>  rs
+[2] =>  0
+[3] =>  di
+[4] =>  01;34
+[5] =>  ln
+[6] =>  01;36
+[7] =>  mh
+[8] =>  00
+[9] =>  pi
+[10] =>  40;33
+[11] =>  so
+[12] =>  01;35
+[13] =>  do
+[14] =>  01;35
+[15] =>  bd
+[16] =>  40;33;01
+[17] =>  cd
+[18] =>  40;33;01
+[19] =>  or
+[20] =>  40;31;01
+[21] =>  mi
+[22] =>  00
+[23] =>  su
+[24] =>  37;41
+[25] =>  sg
+[26] =>  30;43
+[27] =>  ca
+[28] =>  30;41
+[29] =>  tw
+[30] =>  30;42
+[31] =>  ow
+[32] =>  34;42
+[33] =>  st
+[34] =>  37;44
+[35] =>  ex
+[36] =>  01;32
+[37] =>  *.tar
+[38] =>  01;31
+[39] =>  *.tgz
+[40] =>  01;31
+[41] =>  *.arc
+[42] =>  01;31
+[43] =>  *.arj
+[44] =>  01;31
+[45] =>  *.taz
+[46] =>  01;31
+[47] =>  *.lha
+[48] =>  01;31
+[49] =>  *.lz4
+[50] =>  01;31
+[51] =>  *.lzh
+[52] =>  01;31
+[53] =>  *.lzma
+[54] =>  01;31
+[55] =>  *.tlz
+[56] =>  01;31
+[57] =>  *.txz
+[58] =>  01;31
+[59] =>  *.tzo
+[60] =>  01;31
+[61] =>  *.t7z
+[62] =>  01;31
+[63] =>  *.zip
+[64] =>  01;31
+[65] =>  *.z
+[66] =>  01;31
+[67] =>  *.dz
+[68] =>  01;31
+[69] =>  *.gz
+[70] =>  01;31
+[71] =>  *.lrz
+[72] =>  01;31
+[73] =>  *.lz
+[74] =>  01;31
+[75] =>  *.lzo
+[76] =>  01;31
+[77] =>  *.xz
+[78] =>  01;31
+[79] =>  *.zst
+[80] =>  01;31
+[81] =>  *.tzst
+[82] =>  01;31
+[83] =>  *.bz2
+[84] =>  01;31
+[85] =>  *.bz
+[86] =>  01;31
+[87] =>  *.tbz
+[88] =>  01;31
+[89] =>  *.tbz2
+[90] =>  01;31
+[91] =>  *.tz
+[92] =>  01;31
+[93] =>  *.deb
+[94] =>  01;31
+[95] =>  *.rpm
+[96] =>  01;31
+[97] =>  *.jar
+[98] =>  01;31
+[99] =>  *.war
+[100] =>  01;31
+[101] =>  *.ear
+[102] =>  01;31
+[103] =>  *.sar
+[104] =>  01;31
+[105] =>  *.rar
+[106] =>  01;31
+[107] =>  *.alz
+[108] =>  01;31
+[109] =>  *.ace
+[110] =>  01;31
+[111] =>  *.zoo
+[112] =>  01;31
+[113] =>  *.cpio
+[114] =>  01;31
+[115] =>  *.7z
+[116] =>  01;31
+[117] =>  *.rz
+[118] =>  01;31
+[119] =>  *.cab
+[120] =>  01;31
+[121] =>  *.wim
+[122] =>  01;31
+[123] =>  *.swm
+[124] =>  01;31
+[125] =>  *.dwm
+[126] =>  01;31
+[127] =>  *.esd
+[128] =>  01;31
+[129] =>  *.jpg
+[130] =>  01;35
+[131] =>  *.jpeg
+[132] =>  01;35
+[133] =>  *.mjpg
+[134] =>  01;35
+[135] =>  *.mjpeg
+[136] =>  01;35
+[137] =>  *.gif
+[138] =>  01;35
+[139] =>  *.bmp
+[140] =>  01;35
+[141] =>  *.pbm
+[142] =>  01;35
+[143] =>  *.pgm
+[144] =>  01;35
+[145] =>  *.ppm
+[146] =>  01;35
+[147] =>  *.tga
+[148] =>  01;35
+[149] =>  *.xbm
+[150] =>  01;35
+[151] =>  *.xpm
+[152] =>  01;35
+[153] =>  *.tif
+[154] =>  01;35
+[155] =>  *.tiff
+[156] =>  01;35
+[157] =>  *.png
+[158] =>  01;35
+[159] =>  *.svg
+[160] =>  01;35
+[161] =>  *.svgz
+[162] =>  01;35
+[163] =>  *.mng
+[164] =>  01;35
+[165] =>  *.pcx
+[166] =>  01;35
+[167] =>  *.mov
+[168] =>  01;35
+[169] =>  *.mpg
+[170] =>  01;35
+[171] =>  *.mpeg
+[172] =>  01;35
+[173] =>  *.m2v
+[174] =>  01;35
+[175] =>  *.mkv
+[176] =>  01;35
+[177] =>  *.webm
+[178] =>  01;35
+[179] =>  *.ogm
+[180] =>  01;35
+[181] =>  *.mp4
+[182] =>  01;35
+[183] =>  *.m4v
+[184] =>  01;35
+[185] =>  *.mp4v
+[186] =>  01;35
+[187] =>  *.vob
+[188] =>  01;35
+[189] =>  *.qt
+[190] =>  01;35
+[191] =>  *.nuv
+[192] =>  01;35
+[193] =>  *.wmv
+[194] =>  01;35
+[195] =>  *.asf
+[196] =>  01;35
+[197] =>  *.rm
+[198] =>  01;35
+[199] =>  *.rmvb
+[200] =>  01;35
+[201] =>  *.flc
+[202] =>  01;35
+[203] =>  *.avi
+[204] =>  01;35
+[205] =>  *.fli
+[206] =>  01;35
+[207] =>  *.flv
+[208] =>  01;35
+[209] =>  *.gl
+[210] =>  01;35
+[211] =>  *.dl
+[212] =>  01;35
+[213] =>  *.xcf
+[214] =>  01;35
+[215] =>  *.xwd
+[216] =>  01;35
+[217] =>  *.yuv
+[218] =>  01;35
+[219] =>  *.cgm
+[220] =>  01;35
+[221] =>  *.emf
+[222] =>  01;35
+[223] =>  *.ogv
+[224] =>  01;35
+[225] =>  *.ogx
+[226] =>  01;35
+[227] =>  *.aac
+[228] =>  00;36
+[229] =>  *.au
+[230] =>  00;36
+[231] =>  *.flac
+[232] =>  00;36
+[233] =>  *.m4a
+[234] =>  00;36
+[235] =>  *.mid
+[236] =>  00;36
+[237] =>  *.midi
+[238] =>  00;36
+[239] =>  *.mka
+[240] =>  00;36
+[241] =>  *.mp3
+[242] =>  00;36
+[243] =>  *.mpc
+[244] =>  00;36
+[245] =>  *.ogg
+[246] =>  00;36
+[247] =>  *.ra
+[248] =>  00;36
+[249] =>  *.wav
+[250] =>  00;36
+[251] =>  *.oga
+[252] =>  00;36
+[253] =>  *.opus
+[254] =>  00;36
+[255] =>  *.spx
+[256] =>  00;36
+[257] =>  *.xspf
+[258] =>  00;36
+
+     [1;36m--path[15]--[0m    
+
+[0] =>  SHELL
+[1] =>  /bin/bash
+
+     [1;36m--path[16]--[0m    
+
+[0] =>  LESSCLOSE
+[1] =>  /usr/bin/lesspipe %s %s
+
+     [1;36m--path[17]--[0m    
+
+[0] =>  PWD
+[1] =>  /mnt/c/Users/active/Desktop/Coding/dirC/0x16. C - Simple Shell/tmp
+
+     [1;36m--path[18]--[0m    
+
+[0] =>  XDG_DATA_DIRS
+[1] =>  /usr/local/share
+[2] =>  /usr/share
+[3] =>  /var/lib/snapd/desktop
+
+     [1;36m--path[19]--[0m    
+
+[0] =>  HOSTTYPE
+[1] =>  x86_64
+
+     [1;36m--path[20]--[0m    
+
+[0] =>  WSLENV
+
+     [1;36m--path[21]--[0m    
+
+[0] =>  GLIBCXX_FORCE_NEW
+[1] =>  1
+
+     [1;36m--path[22]--[0m    
+
+[0] =>  LD_PRELOAD
+[1] =>  /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_core-amd64-linux.so
+[2] =>  /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so

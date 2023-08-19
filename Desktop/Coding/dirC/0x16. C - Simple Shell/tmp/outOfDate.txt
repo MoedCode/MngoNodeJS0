@@ -1,0 +1,114 @@
+#include <stddef.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+extern char **environ;
+
+size_t free_argv(char **argv)
+{
+	size_t i, j;
+
+    for (j = 0; argv[j]; j++)
+            ;
+	for (i = 0; i < j; i++)
+		free(argv[i]);
+
+    free(argv);
+    return (i);
+}
+char  **tokenize(char *cmd, char*  delim)
+{
+	size_t TksNum = 0;
+	char *token = NULL, **Tokens = NULL;
+
+	token = strtok(cmd, delim);
+	while (token)
+	{
+		Tokens = realloc(Tokens, sizeof(char *) * (TksNum + 1));
+
+		if (!Tokens)
+		{
+			free_argv(Tokens);
+			perror("tokenaize.c:21 realloc");
+			return (NULL);
+		}
+	/* tokinize && Asign */
+		Tokens[TksNum] = strdup(token);
+		// printf("tenize.c:25 %s\n",Tokens[TksNum]);
+		token = strtok(NULL, delim);
+		TksNum++;
+	}
+
+		Tokens = realloc(Tokens, sizeof(char *) * (TksNum + 1));
+		if (!Tokens)
+		{
+			free_argv(Tokens);
+			perror("tokenaize.c:21 realloc");
+			return (NULL);
+		}
+
+		Tokens[TksNum] = NULL;
+
+			return (Tokens);
+}
+
+ char *SearchIntEnv(char *startWith)
+{
+	char **s = environ;
+
+    for (; *s; s++ )
+    /* && s[i][5] != '\0' && s[i][5] != ' ' */
+        if (!strncmp(startWith, *s, 5 ) )
+            return (*s);
+
+return (NULL);
+}
+int main()
+{
+
+
+
+    char **s = environ, **envPath, **TokEnvPath;
+
+    size_t envLn,i ,j;
+    for (envLn = 0; s[envLn]; envLn++)
+            ;
+
+    printf("environ len => %zu\n",envLn);
+
+    envPath = malloc((envLn + 1) * sizeof(char *));
+    if (!envPath)
+        {
+            perror("Faoled To Allocat Block for envPath");
+            exit(127);
+        }
+
+
+    for (i = 0; i < envLn; i++)
+    {
+
+
+        envPath[i] = strdup(s[i]);
+
+
+    }
+
+    envPath[envLn] = NULL;
+
+    for (i = 0; envPath[i]; i++)
+        {
+        TokEnvPath = tokenize(envPath[i], ":=");
+            printf("\n     \033[1;36m--path[%zu]--\033[0m    \n\n",i);
+            for (j = 0; TokEnvPath[j]; j++)
+                printf("[%zu] =>  %s\n",j, TokEnvPath[j]);
+            free_argv(TokEnvPath);
+        }
+    free_argv(envPath);
+
+
+ char *s1[] = { "PATH=","PATH= ", "PATH=path1/dir1","l;sadl;askd","     ",NULL};
+printf("%s\n",  SearchIntEnv("PATH="));
+
+
+    return (0);
+}
